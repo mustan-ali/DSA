@@ -20,14 +20,12 @@ public class CircularQueue {
     public void enqueue(int data) {
         if (isEmpty()) {
             front++;
+        } else if (count == items.length) {
+            throw new IllegalStateException("Queue is Full");
         }
-//        else if (count == items.length) {
-//            throw new IllegalStateException("Queue is Full");
-//        }
         rear = (rear + 1) % items.length;
-        count++;
         items[rear] = data;
-
+        count++;
     }
 
     public int dequeue() {
@@ -35,7 +33,9 @@ public class CircularQueue {
             throw new IllegalStateException("Queue is Empty");
         }
         int data = items[front];
-        rear = (rear + 1) % items.length;
+        items[front] = 0;
+        front = (front + 1) % items.length;
+        count--;
         return data;
     }
 
@@ -51,7 +51,7 @@ public class CircularQueue {
     }
 
     public void printQueue() {
-        if (front == rear) {
+        if (front <= rear) {
             for (int i = front; i <= rear; i++) {
                 System.out.print(items[i] + " ");
             }

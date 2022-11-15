@@ -24,15 +24,18 @@ public class Main {
 
 
         CircularQueue cq=new CircularQueue(5);
+        cq.enqueue(10);
+        cq.enqueue(20);
+        cq.enqueue(30);
+        cq.enqueue(40);
+        cq.enqueue(50);
+
+
+        cq.dequeue();
+        cq.dequeue();
+
         cq.enqueue(1);
         cq.enqueue(2);
-        cq.enqueue(3);
-        cq.enqueue(4);
-        cq.enqueue(5);
-        cq.dequeue();
-        cq.dequeue();
-        cq.enqueue(10);
-        cq.enqueue(11);
 
         cq.printQueue();
     }
