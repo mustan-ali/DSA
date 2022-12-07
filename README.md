@@ -8,4 +8,5 @@ L4. Circular Linked List
 L5. Doubly Linked List  
 L6. Stack (Stack using Array & Linked List)  
 L7. Queue (Queue & Circular Queue using Array)   
-L8. Queue & Searching (Circular Queue using Linked List, PriorityQueue, Linear Search & Binary Search)
+L8. Queue & Searching (Circular Queue using Linked List, PriorityQueue, Linear Search & Binary Search)  
+L9. Searching (LinearSearch, BinarySearch, TernarySearch & JumpSearch using recursion)  
