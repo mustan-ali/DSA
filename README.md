@@ -12,3 +12,4 @@ L8. Queue & Searching (Circular Queue using Linked List, PriorityQueue, Linear S
 L9. Searching (LinearSearch, BinarySearch, TernarySearch & JumpSearch using recursion)  
 L10. Sorting (InsertionSort, bubbleSort, SelectionSort, SelectionSort using recursion)  
 L11. Sorting & Tree (MergeSort, QuickSort, BinaryTree)  
+L12. Binary Tree (pre-order, in-order, post-order traversal & Tree height)  
