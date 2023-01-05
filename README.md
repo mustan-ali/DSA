@@ -13,3 +13,4 @@ L9. Searching (LinearSearch, BinarySearch, TernarySearch & JumpSearch using recu
 L10. Sorting (InsertionSort, bubbleSort, SelectionSort, SelectionSort using recursion)  
 L11. Sorting & Tree (MergeSort, QuickSort, BinaryTree)  
 L12. Binary Tree (pre-order, in-order, post-order traversal & Tree height)  
+L13. Binary Tree & AVL Tree   
